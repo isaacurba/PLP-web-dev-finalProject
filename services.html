@@ -1,0 +1,101 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Services — Matt Com Solutions</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Matt Com Solutions</a>
+      <nav class="nav" id="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button id="menu-btn" class="menu-btn" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main class="container page services-page">
+    <section class="page-hero">
+      <h1>Our Services</h1>
+      <p class="lead">We provide a full range of IT services — from sales to repairs to software installation.</p>
+    </section>
+
+    <section class="services-list">
+      <div class="service-card">
+        <h3>Sell Laptops & Accessories</h3>
+        <p>We source quality devices — new and refurbished — and offer warranty options.</p>
+      </div>
+      <div class="service-card">
+        <h3>Repairs & Maintenance</h3>
+        <p>Hardware diagnostics, battery & screen replacement, data recovery and more.</p>
+      </div>
+      <div class="service-card">
+        <h3>Software Installation & Support</h3>
+        <p>OS setup, application installations, driver updates and troubleshooting.</p>
+      </div>
+      <div class="service-card">
+        <h3>Basic Coding & Development Support</h3>
+        <p>Small scripts, automation, and basic web help to keep your projects moving.</p>
+      </div>
+    </section>
+
+    <section class="quote-form">
+      <h2>Request a Quote</h2>
+      <form id="quote-form">
+        <label>Name<input type="text" id="qname" /></label>
+        <small class="error" id="qnameError"></small>
+
+        <label>Email<input type="email" id="qemail" /></label>
+        <small class="error" id="qemailError"></small>
+
+        <label>Service required
+          <select id="qservice">
+            <option>Sell Laptops</option>
+            <option>Repairs</option>
+            <option>Software Installation</option>
+            <option>Coding Support</option>
+          </select>
+        </label>
+
+        <label>Details<textarea id="qdetails"></textarea></label>
+        <small class="error" id="qdetailsError"></small>
+
+        <button type="submit" class="btn primary">Request Quote</button>
+        <p id="qsuccess" class="success"></p>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <strong>Matt Com Solutions</strong>
+        <p>Lagos, Nigeria</p>
+        <p>+234 802 914 8630</p>
+        <p>matthewmensah@gmail.com</p>
+      </div>
+      <div class="footer-right">
+        <p>Follow us</p>
+        <nav class="socials">
+          <a href="https://facebook.com/placeholder" target="_blank">Facebook</a>
+          <a href="https://instagram.com/placeholder" target="_blank">Instagram</a>
+          <a href="https://wa.me/2348029148630" target="_blank">WhatsApp</a>
+          <a href="https://linkedin.com/placeholder" target="_blank">LinkedIn</a>
+        </nav>
+      </div>
+    </div>
+    <div class="center small">© Matt Com Solutions — All rights reserved</div>
+  </footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
